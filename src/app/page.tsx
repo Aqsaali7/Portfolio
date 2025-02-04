@@ -6,6 +6,7 @@ import { IoLogoHtml5 } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoPython } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -40,7 +41,7 @@ export default function Home() {
 
 <section className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-col px-5 py-10 justify-center items-center">
-    <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"/>
+    <Image className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"/>
     <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Web Developer</h1>
       <p className="mb-8 leading-relaxed">As a detail-oriented and innovative web developer with a strong academic foundation in International Relations, I bring a unique combination of technical skills and global perspective to the table. With proficiency in programming languages such as HTML, CSS, and JavaScript, I have successfully developed and deployed  web applications and projects. </p>
@@ -144,7 +145,7 @@ export default function Home() {
 {/**   */}
 
 <button className="bg-gray-100 mx-auto mt-16 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-<img  className="w-15 h-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw8AHWfvfU99X7gPZDKalDYZWcC_ROQc4Fag&s"
+<Image className="w-15 h-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw8AHWfvfU99X7gPZDKalDYZWcC_ROQc4Fag&s"
 alt="gitlogo"/>
         <span className="ml-4 flex items-start flex-col leading-none">
           <span className="text-xs text-gray-600 mb-1">Visit GitHub</span>
