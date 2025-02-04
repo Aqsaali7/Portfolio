@@ -20,13 +20,7 @@ export default function Home() {
       <a className="mr-5 hover:text-gray-400">About </a>
       <a className="hover:text-gray-400">Privacy Policy</a>
     </nav>
-   {/**<a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-300 lg:items-center lg:justify-center mb-4 md:mb-0">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-slate-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span className="ml-3 text-xl">Aqsa's Portfolio</span>
-    </a> */}
-    <span className="ml-3 text-xl">Aqsa'cms Portfolio</span>
+    <span className="ml-3 text-xl">Aqsa&apos; Portfolio</span>
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
       <button className="inline-flex items-center text-gray-700 bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -120,7 +114,7 @@ export default function Home() {
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span className="title-font font-medium">HACATHON - FIGMA </span>
+          <span className="title-font font-medium">HACKATHON - FIGMA </span>
         </div>
       </div>
       <div className="p-2 sm:w-1/2 w-full">
@@ -264,7 +258,7 @@ ease-in-out transform hover:scale-110 ">
      {/**  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> */}
-      <span className="ml-3 text-xl">Aqsa's Portfolio</span>
+      <span className="ml-3 text-xl">Aqsa&apos; Portfolio</span>
     </a>
     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
       <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
