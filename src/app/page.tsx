@@ -26,7 +26,7 @@ export default function Home() {
       </svg>
       <span className="ml-3 text-xl">Aqsa's Portfolio</span>
     </a> */}
-    <span className="ml-3 text-xl">Aqsa's Portfolio</span>
+    <span className="ml-3 text-xl">Aqsa'cms Portfolio</span>
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
       <button className="inline-flex items-center text-gray-700 bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -307,22 +307,6 @@ ease-in-out transform hover:scale-110 ">
 
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </main>
   )
 }
